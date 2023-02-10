@@ -1,0 +1,114 @@
+{
+    "editor.minimap.enabled": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 18,
+    "editor.lineHeight": 27,
+    "editor.mouseWheelZoom": false,
+    "editor.fontWeight": "500",
+    "editor.fontFamily": "JetBrains Mono",
+    "editor.fontLigatures": false,
+    "window.restoreWindows": "none",
+    "python.languageServer": "Pylance",
+    "editor.largeFileOptimizations": false,
+    "editor.renderWhitespace": "all",
+    "editor.lineNumbers": "relative",
+    "editor.snippetSuggestions": "inline",
+
+    "editor.detectIndentation": false,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
+
+    "prettier.trailingComma": "all",
+    "prettier.tabWidth": 4,
+    "python.formatting.provider": "black",
+
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#282c34",
+        "activityBar.background": "#282c34",
+        "sideBar.background": "#282c34",
+        "tab.activeBorder": "#d19a66",
+        "editorBracketHighlight.foreground1": "#FFD700",
+        "editorBracketHighlight.foreground2": "#DA70D6",
+        "editorBracketHighlight.foreground3": "#87cefa",
+        "editorCursor.foreground": "#B7B7B7",
+        "terminalCursor.foreground": "#B7B7B7"
+    },
+
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "cSpell.userWords": [
+        "coef",
+        "dtype",
+        "imread",
+        "imshow",
+        "Keil",
+        "kmeans",
+        "nestjs",
+        "numpy",
+        "pygame",
+        "pyplot",
+        "sklearn",
+        "ylim"
+    ],
+    "latex-workshop.view.pdf.viewer": "tab",
+    "editor.cursorStyle": "line",
+    "editor.wordWrap": "off",
+
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.hlsearch": true,
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "j"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": ["<leader>", "d"],
+            "after": ["d", "d"]
+        },
+        {
+            "before": ["<C-n>"],
+            "commands": [":nohl"]
+        }
+    ],
+    "vim.leader": "<space>",
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-d>": false,
+        "<C-c>": false,
+        "<C-k>": false,
+        "<C-t>": false,
+        "<C-x>": false,
+        "<C-A-Down>": false,
+        "<C-A-Up>": false,
+        "<C-g>": false,
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-b>": false,
+        "<C-z>": false,
+        "<A-Up>": false,
+        "<A-Down>": false
+    },
+    "vim.overrideCopy": true,
+    "vim.highlightedyank.enable": true,
+    "vim.visualstar": true,
+
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "gitlens.mode.active": "zen",
+    "editor.renderControlCharacters": false,
+    "sync.gist": "6f42c327f97cae55c7e701e494c832ae",
+    "workbench.colorTheme": "One Dark Pro Darker",
+    "vscode-edge-devtools.mirrorEdits": true
+}
